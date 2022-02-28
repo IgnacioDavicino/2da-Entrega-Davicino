@@ -31,6 +31,11 @@ body{
     width: 40%;
 }
 
+.card-body{
+    background: slategray;
+    color: white;
+}
+
 .carousel__img{
     width: 100%;
 }
@@ -127,6 +132,11 @@ footer i{
 .swipe{
     display: none;
 }
+
+
+/* MEDIA QUERIES PESTAÑA NOSOTROS */
+
+
 
 @media (max-width: 420px) {
 
