@@ -29,19 +29,98 @@ body{
     width: 100%;
 }
 
+
+/* Footer */
+
+
+
 footer{
     color: white;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
 
+
 .footer__ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
-.footer__li{
-    margin-bottom: 1rem;
+.footer__ul li {
+    margin: 1rem;
+}
+
+footer i{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+
+/* PAGE Nosotros / Section 1  */
+
+
+ 
+.section__nosotros{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/nosotrosbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section__nosotros img{
+    width: 50%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.section__texto{
+    padding: 1rem;
+    color: white;
+}
+
+
+/* Section 2 */
+
+.section__banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: slategray;
+}
+
+.section__banner h3{
+    margin: 1rem;
+}
+
+.banner__ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 2rem;
+    overflow: auto;
+}
+
+.banner__titulos{
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.banner__titulos:hover{
+    transform: scale(1.2);
+}
+
+/* HOVER A LAS IMG */
+
+.nosotros__img:hover{
+    width: 100%;
 }

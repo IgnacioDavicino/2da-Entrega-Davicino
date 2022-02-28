@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Glass - Inicio</title>
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap -->
@@ -14,6 +14,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <!-- Font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
@@ -32,10 +36,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="navbar__a nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="navbar__a nav-link" href="pages/nosotros.html">Nosotros</a>
           </li>
         </ul>
       </div>
@@ -52,7 +56,7 @@
         <p>Conoce un poco de nuestra historia</p>
         <button type="button" class="col-md-6 btn btn-info">Saber más</button>
       </div>
-      <img class="section__img img-fluid" src="img/mainpic.jpg" alt="casa">
+      <img class="section__img img-fluid d-none d-sm-block" src="img/mainpic.jpg" alt="casa">
     </section>
 
 
@@ -61,6 +65,7 @@
 
     <section class="bg-dark text-light text-center p-5">
       <h3>Dejanos tu correo</h3>
+      <p>Nos contactaremos a la brevedad</p>
       <div class="inputcorreo">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Dejanos tu correo..." aria-label="Dejanos tu correo..."
@@ -149,6 +154,19 @@
 
   <footer class="bg-dark">
     <h4>© 1998-2022 Glass Todos los derechos reservados.</h4>
+    <div class="footer__redes">
+      <ul class="footer__ul">
+        <li><a href="https/www.instagram.com">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+        <li><a href="https/www.instagram.com">
+            <i class="fab fa-facebook"></i>
+          </a></li>
+        <li><a href="https/www.instagram.com">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+      </ul>
+    </div>
   </footer>
   <!-- Bootstrap JS -->
   <script src="js/bootstrap.bundle.min.js"></script>
