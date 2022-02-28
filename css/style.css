@@ -3,10 +3,16 @@
 }
 
 body{
-    background: #00416A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient( 97.3deg,  rgba(25,50,70,0.81) 10.7%, rgba(155,65,25,0.72) 39.5%, rgba(255,192,0,0.81) 69.7% );
 }
+
+
+
+
+/* Inicio */ 
+
+
+
 
 .navbar__logo{
     height: 30px;
@@ -76,14 +82,13 @@ footer i{
     background-size: cover;
 }
 
-.section__nosotros img{
-    width: 50%;
+.nosotros__img{
+    width: 100%;
     border-radius: 50%;
     padding: 1rem;
 }
 
 .section__texto{
-    padding: 1rem;
     color: white;
 }
 
@@ -119,8 +124,19 @@ footer i{
     transform: scale(1.2);
 }
 
-/* HOVER A LAS IMG */
+.swipe{
+    display: none;
+}
 
-.nosotros__img:hover{
-    width: 100%;
+@media (max-width: 420px) {
+
+    .section__nosotros{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swipe{
+        display: inline;
+    }
+
 }
