@@ -120,6 +120,10 @@ footer i{
     overflow: auto;
 }
 
+.banner__ul li{
+    margin: 1rem;
+}
+
 .banner__titulos{
     transition: 1s;
     text-decoration: underline;
@@ -149,4 +153,7 @@ footer i{
         display: inline;
     }
 
+    .banner__ul li{
+        margin: 1rem;
+        padding: 1rem;
 }
